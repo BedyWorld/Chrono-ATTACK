@@ -1,0 +1,11 @@
+﻿  Chrono-Attack.cpp
+C:\Users\Admin\source\repos\Chrono-Attack\Chrono-Attack\Chrono-Attack.cpp(149,31): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Admin\source\repos\Chrono-Attack\Chrono-Attack\Chrono-Attack.cpp(150,32): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Admin\source\repos\Chrono-Attack\Chrono-Attack\Chrono-Attack.cpp(151,70): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\Admin\source\repos\Chrono-Attack\Chrono-Attack\Chrono-Attack.cpp(161,31): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Admin\source\repos\Chrono-Attack\Chrono-Attack\Chrono-Attack.cpp(162,32): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Admin\source\repos\Chrono-Attack\Chrono-Attack\Chrono-Attack.cpp(163,101): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\Admin\source\repos\Chrono-Attack\Chrono-Attack\Chrono-Attack.cpp(172,26): warning C4244: +=: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\source\repos\Chrono-Attack\Chrono-Attack\Chrono-Attack.cpp(221,33): warning C4244: +=: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\source\repos\Chrono-Attack\Chrono-Attack\Chrono-Attack.cpp(229,37): warning C4244: +=: преобразование "float" в "int", возможна потеря данных
+  Chrono-Attack.vcxproj -> C:\Users\Admin\source\repos\Chrono-Attack\x64\Debug\Chrono-Attack.exe
