@@ -127,7 +127,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BattleSystem.cpp" />
     <ClCompile Include="Chrono-Attack.cpp" />
+    <ClCompile Include="GameMap.cpp" />
+    <ClCompile Include="GameUtils.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="Module.cpp" />
+    <ClCompile Include="Robot.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BattleSystem.h" />
+    <ClInclude Include="GameConfig.h" />
+    <ClInclude Include="GameMap.h" />
+    <ClInclude Include="GameUtils.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="Module.h" />
+    <ClInclude Include="Robot.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
