@@ -45,7 +45,7 @@ void GameMap::reset_map(int level) {
     }
     player_x_ = 0;
     player_y_ = 0;
-    std::cout << "\nНовая карта сгенерирована для уровня " << level << "!\n";
+    std::cout << "\nNew map is generated for the levels " << level << "!\n";
 }
 
 void GameMap::initialize_room_content(int x, int y, int level) {
@@ -93,7 +93,7 @@ BattleResult GameMap::move_player(int dx, int dy, std::vector<Robot>& team, Inve
         return check_room(team, inventory, level);
     }
     else {
-        std::cout << "Нельзя выйти за пределы карты!\n";
+        std::cout << "YOu can't go out of bounds!\n";
         return BattleResult::CONTINUE;
     }
 }
@@ -103,9 +103,9 @@ BattleResult GameMap::check_room(std::vector<Robot>& team, Inventory& inventory,
     final_boss_triggered_this_turn_ = false;
 
     if (map_[player_x_][player_y_].has_enemy) {
-        std::cout << "\nВы наткнулись на врага!\n";
+        std::cout << "\nYou've stumbled upon an enemy!\n";
         std::this_thread::sleep_for(std::chrono::milliseconds(1000));
-        Robot enemy("Враждебный дрон", 50 * level, 15 + (level * 2), 0, "Атака");
+        Robot enemy("Evil drone", 50 * level, 15 + (level * 2), 0, "Attack");
         BattleSystem battle(team, enemy, level);
 
         BattleResult battle_outcome = battle.start_battle();
@@ -115,7 +115,7 @@ BattleResult GameMap::check_room(std::vector<Robot>& team, Inventory& inventory,
             room_content_changed = true;
         }
         else if (battle_outcome == BattleResult::PLAYER_LOST) {
-            std::cout << "Все роботы уничтожены! Игра окончена.\n";
+            std::cout << "All the robots were defeated.\n";
             return BattleResult::PLAYER_LOST;
         }
     }
@@ -123,18 +123,18 @@ BattleResult GameMap::check_room(std::vector<Robot>& team, Inventory& inventory,
         inventory.add_module(map_[player_x_][player_y_].module);
         map_[player_x_][player_y_].module = nullptr;
         room_content_changed = true;
-        std::cout << "Вы нашли модуль!\n";
+        std::cout << "You've found a module!\n";
         std::this_thread::sleep_for(std::chrono::seconds(1));
     }
 
     if (room_content_changed && is_map_clear()) {
         if (level == FINAL_LEVEL) {
             final_boss_triggered_this_turn_ = true;
-            std::cout << "\nВся карта очищена! Появляется финальный босс!\n";
+            std::cout << "\nAll of the map is clear, time for a special guest!\n";
             return BattleResult::FINAL_BOSS_TRIGGERED;
         }
         else {
-            std::cout << "\nВся карта очищена! Переход на следующий уровень.\n";
+            std::cout << "\nAll of the map is clear, time for a next level!\n";
             ++level;
             reset_map(level);
         }
@@ -163,5 +163,5 @@ void GameMap::display() const {
         }
         std::cout << "\n";
     }
-    std::cout << "P - Вы, E - Враг, M - Модуль, [ ] - Пустая комната\n";
+    std::cout << "P - You, E - Enemy, M - Module, [ ] - Empty cell\n";
 }

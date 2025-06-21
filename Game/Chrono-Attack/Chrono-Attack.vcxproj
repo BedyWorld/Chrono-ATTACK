@@ -134,6 +134,7 @@
     <ClCompile Include="Inventory.cpp" />
     <ClCompile Include="Module.cpp" />
     <ClCompile Include="Robot.cpp" />
+    <ClCompile Include="TextManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BattleSystem.h" />
@@ -143,6 +144,10 @@
     <ClInclude Include="Inventory.h" />
     <ClInclude Include="Module.h" />
     <ClInclude Include="Robot.h" />
+    <ClInclude Include="TextManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="text.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

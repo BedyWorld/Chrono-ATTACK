@@ -63,7 +63,7 @@ bool Robot::heal(Robot& target, int current_game_level) {
     target.health_ += static_cast<int>(heal_amount);
     if (target.health_ > target.max_health_) target.health_ = target.max_health_;
 
-    std::cout << target.name_ << " восстановил " << (target.health_ - old_health) << " HP! (" << old_health << " -> "
+    std::cout << target.name_ << " has restored " << (target.health_ - old_health) << " HP! (" << old_health << " -> "
         << target.health_ << "/" << target.max_health_ << ")\n";
 
     return false;
@@ -79,9 +79,9 @@ void Robot::take_damage(int damage) {
         int absorbed = std::min(damage, defense_shield_);
         damage -= absorbed;
         defense_shield_ -= absorbed;
-        std::cout << name_ << " поглотил " << absorbed << " урона энергетическим барьером.\n";
+        std::cout << name_ << " aborbed " << absorbed << " damage with a barrier.\n";
         if (defense_shield_ == 0) {
-            std::cout << name_ << " потерял энергетический барьер.\n";
+            std::cout << name_ << " has lost the energy shield.\n";
         }
     }
     health_ -= damage;
@@ -90,11 +90,11 @@ void Robot::take_damage(int damage) {
 
 void Robot::apply_virus_effect(Robot& enemy) {
     if (virus_duration_ > 0) {
-        std::cout << enemy.name_ << " получает " << virus_damage_per_turn_ << " урона от вируса!\n";
+        std::cout << enemy.name_ << " gains " << virus_damage_per_turn_ << " damage from Virus!\n";
         enemy.take_damage(virus_damage_per_turn_);
         virus_duration_--;
         if (virus_duration_ == 0) {
-            std::cout << "Эффект вируса на " << enemy.name_ << " закончился.\n";
+            std::cout << "Virus effect on " << enemy.name_ << " has expired.\n";
         }
     }
 }
@@ -115,15 +115,15 @@ void Robot::display_stats() const {
     if (has_defense_buff_)
         std::cout << "(-" << defense_buff_percentage_ << "% урона)";
 
-    if (name_ != "Враждебный дрон") {
+    if (name_ != "Evil drone") {
         std::cout << ", " << ability_description_ << "= " << current_special_ability_value_;
     }
     std::cout << "\n";
 }
 
 BattleResult Robot::use_special_ability(std::vector<Robot>& team, Robot* enemy, int current_game_level) {
-    if (name_ == "Гобби") {
-        std::cout << "Выберите робота для лечения:\n";
+    if (name_ == "Gobbie") {
+        std::cout << "Choose a bot to heal:\n";
         std::vector<Robot*> alive_team_members;
         for (size_t i = 0; i < team.size(); ++i) {
             if (team[i].is_alive()) {
@@ -135,46 +135,46 @@ BattleResult Robot::use_special_ability(std::vector<Robot>& team, Robot* enemy, 
         }
 
         if (alive_team_members.empty()) {
-            std::cout << "Нет живых роботов для лечения.\n";
+            std::cout << "No alive bots left to heal.\n";
             return BattleResult::CONTINUE;
         }
 
         int choice;
-        std::cout << "Введите номер робота: ";
+        std::cout << "Type in a bot's number: ";
         std::cin >> choice;
 
         if (choice > 0 && choice <= alive_team_members.size()) {
             heal(*alive_team_members[choice - 1], current_game_level);
         }
         else {
-            std::cout << "Неверный выбор цели. Лечение пропущено.\n";
+            std::cout << "Incorrect target, heal missed.\n";
         }
         return BattleResult::CONTINUE;
     }
-    else if (name_ == "Бобби") {
+    else if (name_ == "Bobbie") {
         if (enemy) {
             int damage = static_cast<int>(calculate_damage() * (1.1f + current_special_ability_value_ / 100.0f));
-            std::cout << name_ << " использует супер атаку и наносит " << damage << " урона!\n";
+            std::cout << name_ << " is using a special ability and deals " << damage << " damage!\n";
             enemy->take_damage(damage);
 
             int self_damage = static_cast<int>(max_health_ * 0.1);
             health_ -= self_damage;
             if (health_ < 0) health_ = 0;
-            std::cout << name_ << " теряет " << self_damage << " HP от отдачи! (" << health_ << "/" << max_health_ << ")\n";
+            std::cout << name_ << " loses " << self_damage << " HP from attacking! (" << health_ << "/" << max_health_ << ")\n";
         }
         return BattleResult::CONTINUE;
     }
-    else if (name_ == "Робби") {
+    else if (name_ == "Robbie") {
         int shield_value = static_cast<int>(std::round(current_special_ability_value_));
         for (auto& robot : team) {
             robot.defense_shield_ = shield_value;
-            std::cout << robot.name_ << " получил энергетический барьер, поглощающий " << shield_value << " урона на 1 ход.\n";
+            std::cout << robot.name_ << " has gain an electric shield giving " << shield_value << " of damage for 1 turn.\n";
         }
         return BattleResult::CONTINUE;
     }
-    else if (name_ == "Зомби") {
+    else if (name_ == "Zombie") {
         if (!enemy) {
-            std::cout << "Нет цели для заражения вирусом.\n";
+            std::cout << "No enemies are to be infected.\n";
             return BattleResult::CONTINUE;
         }
 
@@ -186,8 +186,8 @@ BattleResult Robot::use_special_ability(std::vector<Robot>& team, Robot* enemy, 
         enemy->virus_damage_per_turn_ = calculated_virus_damage;
         enemy->virus_duration_ = calculated_virus_duration;
 
-        std::cout << name_ << " заразил " << enemy->name_ << " вирусом с уроном " << calculated_virus_damage
-            << " на " << calculated_virus_duration << " ход(ов)!\n";
+        std::cout << name_ << " has infected " << enemy->name_ << " with virus and deals " << calculated_virus_damage
+            << " for " << calculated_virus_duration << " turn/s!\n";
 
         return BattleResult::CONTINUE;
     }

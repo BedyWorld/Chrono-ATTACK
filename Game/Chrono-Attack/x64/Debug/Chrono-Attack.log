@@ -1,9 +1,1 @@
-﻿  BattleSystem.cpp
-  GameMap.cpp
-  GameUtils.cpp
-  Inventory.cpp
-  Module.cpp
-  Robot.cpp
-C:\Users\Admin\Documents\GitHub\Chrono-ATTACK\Game\Chrono-Attack\Robot.cpp(50,109): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-  Создание кода...
-  Chrono-Attack.vcxproj -> C:\Users\Admin\Documents\GitHub\Chrono-ATTACK\Game\x64\Debug\Chrono-Attack.exe
+﻿  Chrono-Attack.vcxproj -> C:\Users\Admin\Documents\GitHub\Chrono-ATTACK\Game\x64\Debug\Chrono-Attack.exe

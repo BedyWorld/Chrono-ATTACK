@@ -5,16 +5,15 @@
 #include <string>
 
 const std::vector<std::string> Module::name_prefixes_ = {
-    "Квантовый", "Плазменный", "Нано", "Кибер", "Турбо",
-    "Гипер", "Мега", "Ультра", "Электро", "Нейро"
+    "Quantum", "Plasma", "Nano", "Cyber", "Turbo",
+"Hyper", "Mega", "Ultra", "Electro", "Neuro"
 };
 
 const std::vector<std::string> Module::name_suffixes_ = {
-    "усилитель", "стабилизатор", "контроллер", "модулятор",
-    "трансформер", "аккумулятор", "реактор", "процессор",
-    "драйвер", "адаптер"
+    "amplifier", "stabilizer", "controller", "modulator",
+    "transformer", "battery", "reactor", "processor",
+    "driver", "adapter"
 };
-
 // Реализация конструктора
 Module::Module(int level) {
     generate_random_stats(level);
@@ -28,7 +27,7 @@ std::string Module::generate_name() {
 
     if (rand() % 100 < 30) {
         static const std::vector<std::string> prefixes = {
-            "Прототип", "Улучшенный", "Боевой", "Элитный", "Экспериментальный"
+            
         };
         name = prefixes[rand() % prefixes.size()] + " " + name;
     }

@@ -10,18 +10,18 @@ Inventory::~Inventory() {
 
 void Inventory::add_module(Module* module) {
     modules_.push_back(module);
-    std::cout << "Добавлен модуль: ";
+    std::cout << "Module added: ";
     module->display_info();
     std::cout << std::endl;
 }
 
 void Inventory::display() const {
     if (modules_.empty()) {
-        std::cout << "Инвентарь пуст\n";
+        std::cout << "Inventory is empty\n";
         return;
     }
 
-    std::cout << "Инвентарь модулей:\n";
+    std::cout << "Module inventory:\n";
     for (size_t i = 0; i < modules_.size(); ++i) {
         std::cout << i + 1 << ". ";
         modules_[i]->display_info();
