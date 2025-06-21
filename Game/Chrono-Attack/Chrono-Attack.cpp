@@ -22,7 +22,6 @@
 //return 0 если победа 1 если поражение
 
 int main() {
-    setlocale(LC_ALL, "Russian");
     srand(static_cast<unsigned>(time(0)));
 
 	// загрузка текстов из файла
