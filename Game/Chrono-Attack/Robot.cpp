@@ -1,8 +1,9 @@
-﻿#include "Robot.h"
-#include "Module.h"
-#include <iostream>
+﻿#include <iostream>
 #include <cmath>
 #include <algorithm>
+
+#include "Robot.h"
+#include "Module.h"
 
 Robot::Robot(std::string name, int max_health, int base_attack, float base_sav, std::string ability_desc)
     : name_(name),

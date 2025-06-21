@@ -1,7 +1,7 @@
 #ifndef GAME_MAP_H
 #define GAME_MAP_H
 
-#include "GameConfig.h" // для MAP_SIZE и BattleResult
+#include "GameConfig.h"
 #include <vector>
 
 class Robot;

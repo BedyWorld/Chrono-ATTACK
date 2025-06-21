@@ -1,8 +1,9 @@
-﻿#include "GameUtils.h"
+﻿#include <iostream>
+
+#include "GameUtils.h"
 #include "Robot.h"
 #include "Inventory.h"
 #include "Module.h"
-#include <iostream>
 
 void manage_equipment(std::vector<Robot>& team, Inventory& inventory) {
     while (true) {

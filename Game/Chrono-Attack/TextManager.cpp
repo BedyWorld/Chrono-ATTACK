@@ -1,5 +1,6 @@
-﻿#include "TextManager.h"
-#include <sstream>
+﻿#include <sstream>
+
+#include "TextManager.h"
 
 TextManager& TextManager::getInstance() {
     static TextManager instance;

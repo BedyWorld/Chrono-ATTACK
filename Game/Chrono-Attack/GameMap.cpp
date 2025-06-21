@@ -1,13 +1,14 @@
-﻿#include "GameMap.h"
-#include "Robot.h"
-#include "Inventory.h"
-#include "Module.h"
-#include "BattleSystem.h"
-#include <iostream>
+﻿#include <iostream>
 #include <cstdlib>
 #include <ctime>
 #include <thread>
 #include <chrono>
+
+#include "GameMap.h"
+#include "Robot.h"
+#include "Inventory.h"
+#include "Module.h"
+#include "BattleSystem.h"
 
 GameMap::GameMap() : player_x_(0), player_y_(0), final_boss_triggered_this_turn_(false) {
     reset_map(1);

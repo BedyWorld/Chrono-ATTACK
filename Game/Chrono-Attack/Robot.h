@@ -3,14 +3,12 @@
 
 #include <string>
 #include <vector>
-#include "GameConfig.h" // для BattleResult
+#include "GameConfig.h"
 
-// Предварительное объявление для избежания циклической зависимости
 class Module;
 
 class Robot {
 public:
-    // Атрибуты
     std::string name_;
     int max_health_;
     int health_;
@@ -27,26 +25,21 @@ public:
     int virus_damage_per_turn_;
     int virus_duration_;
 
-    // Конструктор
     Robot(std::string name, int max_health, int base_attack, float base_sav, std::string ability_desc);
 
-    // Управление модулями
     void equip_module(Module* module);
     void unequip_module();
     void apply_module_effects();
 
-    // Эффекты статуса
     void reset_virus_effect();
     void apply_virus_effect(Robot& enemy);
     void reset_buffs();
 
-    // Боевые действия
     bool heal(Robot& target, int current_game_level);
     void take_damage(int damage);
     int calculate_damage() const;
     BattleResult use_special_ability(std::vector<Robot>& team, Robot* enemy = nullptr, int current_game_level = 0);
 
-    // Утилиты
     bool is_alive() const;
     void display_stats() const;
 };

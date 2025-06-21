@@ -1,6 +1,7 @@
-﻿#include "Inventory.h"
+﻿#include <iostream>
+
+#include "Inventory.h"
 #include "Module.h"
-#include <iostream>
 
 Inventory::~Inventory() {
     for (auto module : modules_) {

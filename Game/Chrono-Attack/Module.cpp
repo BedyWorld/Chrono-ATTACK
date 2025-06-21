@@ -1,8 +1,9 @@
-﻿#include "Module.h"
-#include <iostream>
+﻿#include <iostream>
 #include <cstdlib>
 #include <vector>
 #include <string>
+
+#include "Module.h"
 
 const std::vector<std::string> Module::name_prefixes_ = {
     "Quantum", "Plasma", "Nano", "Cyber", "Turbo",
