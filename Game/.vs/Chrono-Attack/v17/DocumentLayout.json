@@ -7,24 +7,32 @@
       "RelativeMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|solutionrelative:Chrono-Attack\\Chrono-Attack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\Module.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|solutionrelative:Chrono-Attack\\Module.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\text.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|solutionrelative:Chrono-Attack\\text.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\GameUtils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|solutionrelative:Chrono-Attack\\GameUtils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\TextManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|solutionrelative:Chrono-Attack\\TextManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\GameMap.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|solutionrelative:Chrono-Attack\\GameMap.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\BattleSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|solutionrelative:Chrono-Attack\\BattleSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\TextManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|solutionrelative:Chrono-Attack\\TextManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\GameUtils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|solutionrelative:Chrono-Attack\\GameUtils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\Module.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|solutionrelative:Chrono-Attack\\Module.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\BattleSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|solutionrelative:Chrono-Attack\\BattleSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\Robot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -33,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\Inventory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|solutionrelative:Chrono-Attack\\Inventory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\TextManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1A74C253-8DDD-423E-8F80-F0ABA788D218}|Chrono-Attack\\Chrono-Attack.vcxproj|solutionrelative:Chrono-Attack\\TextManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,46 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameUtils.cpp",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\GameUtils.cpp",
-              "RelativeDocumentMoniker": "Chrono-Attack\\GameUtils.cpp",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\GameUtils.cpp",
-              "RelativeToolTip": "Chrono-Attack\\GameUtils.cpp",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAqwGMAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-21T04:00:45.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GameMap.cpp",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\GameMap.cpp",
-              "RelativeDocumentMoniker": "Chrono-Attack\\GameMap.cpp",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\GameMap.cpp",
-              "RelativeToolTip": "Chrono-Attack\\GameMap.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKUAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-21T03:54:56.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TextManager.cpp",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\TextManager.cpp",
-              "RelativeDocumentMoniker": "Chrono-Attack\\TextManager.cpp",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\TextManager.cpp",
-              "RelativeToolTip": "Chrono-Attack\\TextManager.cpp",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwCYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-21T03:33:04.8Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "BattleSystem.cpp",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\BattleSystem.cpp",
               "RelativeDocumentMoniker": "Chrono-Attack\\BattleSystem.cpp",
@@ -116,14 +81,66 @@
               "RelativeDocumentMoniker": "Chrono-Attack\\Chrono-Attack.cpp",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\Chrono-Attack.cpp",
               "RelativeToolTip": "Chrono-Attack\\Chrono-Attack.cpp",
-              "ViewState": "AgIAACsAAAAAAAAAAAAuwDQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAuwDgAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-20T15:09:22.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "TextManager.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\TextManager.cpp",
+              "RelativeDocumentMoniker": "Chrono-Attack\\TextManager.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\TextManager.cpp",
+              "RelativeToolTip": "Chrono-Attack\\TextManager.cpp",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-21T03:33:04.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameUtils.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\GameUtils.cpp",
+              "RelativeDocumentMoniker": "Chrono-Attack\\GameUtils.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\GameUtils.cpp",
+              "RelativeToolTip": "Chrono-Attack\\GameUtils.cpp",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAqwGMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-21T04:00:45.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "text.txt",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\text.txt",
+              "RelativeDocumentMoniker": "Chrono-Attack\\text.txt",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\text.txt",
+              "RelativeToolTip": "Chrono-Attack\\text.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-21T07:17:35.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameMap.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\GameMap.cpp",
+              "RelativeDocumentMoniker": "Chrono-Attack\\GameMap.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\GameMap.cpp",
+              "RelativeToolTip": "Chrono-Attack\\GameMap.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-21T03:54:56.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Robot.cpp",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\Robot.cpp",
               "RelativeDocumentMoniker": "Chrono-Attack\\Robot.cpp",
@@ -131,25 +148,11 @@
               "RelativeToolTip": "Chrono-Attack\\Robot.cpp",
               "ViewState": "AgIAAD8AAAAAAAAAAAAAAEEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-21T03:43:53.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-21T03:43:53.543Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Module.cpp",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\Module.cpp",
-              "RelativeDocumentMoniker": "Chrono-Attack\\Module.cpp",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\Module.cpp",
-              "RelativeToolTip": "Chrono-Attack\\Module.cpp",
-              "ViewState": "AgIAABEAAAAAAAAAAAAawB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-21T03:52:38.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Inventory.cpp",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\Inventory.cpp",
               "RelativeDocumentMoniker": "Chrono-Attack\\Inventory.cpp",
@@ -157,20 +160,32 @@
               "RelativeToolTip": "Chrono-Attack\\Inventory.cpp",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-21T03:52:15.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-21T03:52:15.694Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "TextManager.h",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\TextManager.h",
               "RelativeDocumentMoniker": "Chrono-Attack\\TextManager.h",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\TextManager.h",
               "RelativeToolTip": "Chrono-Attack\\TextManager.h",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBwAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-21T03:33:18.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Module.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\Module.cpp",
+              "RelativeDocumentMoniker": "Chrono-Attack\\Module.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Chrono-ATTACK\\Game\\Chrono-Attack\\Module.cpp",
+              "RelativeToolTip": "Chrono-Attack\\Module.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-21T03:52:38.374Z",
               "EditorCaption": ""
             }
           ]

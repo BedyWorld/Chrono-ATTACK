@@ -2,7 +2,7 @@
 #include <sstream>
 
 TextManager& TextManager::getInstance() {
-    static TextManager instance; // Guaranteed to be destroyed, instantiated on first use.
+    static TextManager instance;
     return instance;
 }
 
@@ -14,7 +14,6 @@ void TextManager::loadTexts(const std::string& filename) {
 
     std::string line;
     while (std::getline(file, line)) {
-        // Skip empty lines and comments
         if (line.empty() || line[0] == '#') {
             continue;
         }
@@ -33,7 +32,6 @@ std::string TextManager::getText(const std::string& key) const {
     if (it != texts_.end()) {
         return it->second;
     }
-    // Fallback if key not found (can be replaced with error logging or throwing)
     std::cerr << "Warning: Text key '" << key << "' not found!" << std::endl;
     return "MISSING_TEXT_" + key;
 }

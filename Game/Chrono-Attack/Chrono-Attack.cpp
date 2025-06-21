@@ -15,7 +15,7 @@
 #include "Inventory.h"
 #include "BattleSystem.h"
 #include "GameUtils.h"
-#include "TextManager.h" // Include the new TextManager
+#include "TextManager.h"
 
 //МЭйн функция игры
 //Инициализирует игру, создает команду роботов, карту и инвентарь
@@ -25,18 +25,19 @@ int main() {
     setlocale(LC_ALL, "Russian");
     srand(static_cast<unsigned>(time(0)));
 
-    // Load all text strings at the start of the application
+	// загрузка текстов из файла
     try {
         TextManager::getInstance().loadTexts("text.txt");
     } catch (const std::runtime_error& e) {
         std::cerr << "Error loading text file: " << e.what() << std::endl;
-        return 1; // Exit if text file can't be loaded
+		return 1; // выход с ошибкой, если не удалось загрузить тексты
     }
 
     std::vector<Robot> team = {
-        Robot("Бобби", 60, 20, 100, "Супер атака (2X урон, -10% HP) "),        Robot("Робби", 80, 15, 10, "Защитный барьер команды "),
-        Robot("Гобби", 50, 10, 15, "Лечение "),
-        Robot("Зомби", 40, 25, 12, "Вирус ")
+        Robot("Bobbie", 60, 20, 100, "SUPER ATTACK (2X damage, -10% HP) "),        
+        Robot("Робби", 80, 15, 10, "Barrier Shield "),
+        Robot("Gobbie", 50, 10, 15, "Heal "),
+        Robot("Zombie", 40, 25, 12, "Virus ")
     };
 
     GameMap game_map;
@@ -53,19 +54,19 @@ int main() {
 
         game_map.display();
 
-        std::cout << TextManager::getInstance().getText("TEAM_CURRENT_STATS_HEADER");
+        std::cout << TextManager::getInstance().getText("TEAM_CURRENT_STATS_HEADER") << "\n";
         for (const auto& robot : team) {
             if (robot.is_alive()) {
                 robot.display_stats();
             }
             else {
-                std::cout << robot.name_ << " " << TextManager::getInstance().getText("ROBOT_DESTROYED_STATUS") << "\n";
+                std::cout << robot.name_ << "" << TextManager::getInstance().getText("ROBOT_DESTROYED_STATUS") << "\n";
             }
         }
 
         std::cout << TextManager::getInstance().getText("CURRENT_LEVEL_DISPLAY") << current_level << "\n";
 
-        std::cout << TextManager::getInstance().getText("COMMANDS_LIST");
+        std::cout << TextManager::getInstance().getText("COMMANDS_LIST")<<"\n";
         char input;
         std::cin >> input;
 
@@ -91,7 +92,7 @@ int main() {
     }
 
     if (final_boss_triggered) {
-        Robot final_boss("ХРОНО-ВЛАДЫКА", 1000, 70, 20, "Мега-Вирус");
+        Robot final_boss("EVIL MAD SCIENTIST", 1000, 70, 20, "MEGA-VIRUS");
 
         std::cout << TextManager::getInstance().getText("FINAL_BOSS_TRIGGER_MSG_PART1")
                   << final_boss.name_

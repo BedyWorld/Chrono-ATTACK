@@ -27,8 +27,10 @@ std::string Module::generate_name() {
 
     if (rand() % 100 < 30) {
         static const std::vector<std::string> prefixes = {
-            
+            "Advanced", "Experimental", "Prototype", "Elite", "Stealth"
         };
+
+        // Теперь prefixes.size() > 0, безопасный доступ
         name = prefixes[rand() % prefixes.size()] + " " + name;
     }
     return name;
